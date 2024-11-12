@@ -32,8 +32,8 @@ class LinkedList:
             self.tail = new_node
         
         self.length += 1
-
-
+        return True
+    
 my_linked_list = LinkedList(1)
 my_linked_list.make_empty()
 
@@ -58,3 +58,4 @@ my_linked_list.print_list()
 #     1
 #     2
     
+  
