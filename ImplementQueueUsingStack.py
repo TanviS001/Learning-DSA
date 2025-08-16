@@ -15,7 +15,7 @@ class MyQueue:
                 elt=self.stack2.pop()
                 self.stack1.append(elt)
     
-    def dequeue():
+    def dequeue(self):
         if self.stack1:
             elt=self.stack1.pop()
             return elt
